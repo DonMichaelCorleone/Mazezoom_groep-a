@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>@MazeZoom | Timeline</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.0.1/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="src/webapp/styles.css" type="text/css" />
+    <link rel="stylesheet" href="lib/css/timeline.css" type="text/css" />
+    <link rel="stylesheet" href="lib/css/map.css" type="text/css" />
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://openlayers.org/en/v4.0.1/build/ol.js"></script>
+    <script src="src/webapp/api/timeline-api.js" type="text/javascript"></script>
+    <script src="lib/js/timeline.js"></script>
+</head>
+
+
+<body onload="onLoad();">
+    <!--<div id="timemap">
+        <div id="mapcontainer">
+            <div id="map" class="map"></div>
+            <script src="lib/js/map.js"></script>
+        </div>
+        <div id="timelinecontainer">
+            <div id="tl" class="dark-theme">
+            </div>
+        </div>
+    </div>-->
+    <div id="timemap">
+        <div id="mapcontainer">
+            <div id="map"></div>
+            <script src="lib/js/map.js"></script>
+            <div id="timelinecontainer">
+                <div id="timeline" class="dark-theme"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

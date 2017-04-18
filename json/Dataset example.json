@@ -1,0 +1,93 @@
+"items" :
+{
+  "painting" : 
+  {
+    "title" : "De Nachtwacht",
+    "description": "De compagnie van kapitein Frans Banninck Cocq en luitenant Willem van Ruytenburgh maakt zich gereed om uit te marcheren",
+    "type" : "Olieverfschilderij",
+    "start" : "1639",
+    "end" : "1642",
+    "picture" : "",
+    "points" : 
+    {
+      "point" :
+      {
+        "start" : "1642",
+		"end" : "1643",
+        "description" : "origin",
+        "lat" : 43.6393,
+        "lon" : 11.8675 
+      },
+      "point" : 
+      {
+        "start" : "1885",
+		"end" : "",
+        "description" : "current place in the Rijksmuseum - The Museum of the Netherlands - in Amsterdam",
+        "lat" : 45.6213,
+        "lon" : 17.8435
+      },                        
+    },
+    "persons" : 
+    {
+      "person" :
+      {
+        "name" : "Rembrandt van Rijn",
+        "type" : "artist"
+      },
+    },                                               
+  },
+  "person" : 
+  {
+    "title" : "George Bellows",
+    "description": "George Wesley Bellows was an American realist painter, known for his bold depictions of urban life in New York City, becoming, according to the Columbus Museum of Art, 'the most acclaimed American artist of his generation'",
+    "start" : "1882/08/19",
+    "end" : " 1925/01/08",
+    "picture" : "",
+    "points" : 
+    {
+      "point" :
+      {
+        "start" : "1882/08/19",
+		"end" : "",
+        "description" : "Born in Columbus, Ohio USA",
+        "lat" : 41.6493,
+        "lon" : 13.8665 
+      },
+      "point" : 
+      {
+        "start" : "1920/08/19",
+		"end" : "",
+        "description" : "Died in New York City, NY USA",
+        "lat" : 12.6213,
+        "lon" : 43.8335
+      },                        
+    },                                              
+  },
+  "sculpture" : 
+  {
+    "title" : "Head of Invention",
+    "description": "Human subtlety will never devise an invention more beautiful, more simple or more direct than does Nature, because in her inventions, nothing is lacking and nothing is superfluous",
+    "type" : "Bronze sculpture",
+    "start" : "1989/1/1",
+    "picture" : "",
+    "points" : 
+    {
+      "point" :
+      {
+        "start" : "1989/1/1",
+		"end" : "",
+        "description" : "Butler's Wharf outside the Design Museum",
+        "lat" : 43.6343,
+        "lon" : 64.8375 
+      },                       
+    },
+    "persons" : 
+    {
+      "person" :
+      {
+        "name" : "Eduardo Paolozzi",
+        "type" : "artist"
+      },
+    },                                               
+  },
+}
