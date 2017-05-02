@@ -201,6 +201,7 @@ function onZoom(evt) {
     console.info('zoom fired ' + zoomLevel);
     if (zoomLevel >= 12) {
         document.getElementById('timelinecontainer').style.zIndex = '2000';
+        onLoad();
         console.info('show');
     } else {
         document.getElementById('timelinecontainer').style.zIndex = '-2000';
@@ -209,3 +210,4 @@ function onZoom(evt) {
 }
 // register the new Map ZoomEvent with the map
 map.on('moveend', onZoom);
+

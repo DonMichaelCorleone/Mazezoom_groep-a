@@ -25,14 +25,11 @@ function onZoom(evt) {
     var zoomLevel = map.getView().getZoom();
     console.info('zoom fired ' + zoomLevel);
     if (zoomLevel >= 12) {
+        onLoad();
         document.getElementById('timelinecontainer').style.zIndex = '2000';
-        // document.getElementById('timelinecontainer').style.display = 'initial';
-
         console.info('show');
     } else {
         document.getElementById('timelinecontainer').style.zIndex = '-2000';
-        // document.getElementById('timelinecontainer').style.display = 'hidden';
-
         console.info('hide');
     }
 }
